@@ -17,6 +17,9 @@ modules:
     requires:
       - name: db
       - name: hdi-container
+
+  
+
 resources:
   - name: hdi-container
     parameters:
