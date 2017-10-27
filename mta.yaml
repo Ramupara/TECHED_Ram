@@ -20,6 +20,17 @@ modules:
 
   
 
+
+  - name: web
+    type: html5
+    path: web
+    requires:
+     - name: js_api
+       group: destinations
+       properties:
+          name: js_be
+          url: ~{url}
+
 resources:
   - name: hdi-container
     parameters:
